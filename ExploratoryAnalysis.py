@@ -105,4 +105,25 @@ if __name__ == '__main__':
     plt.axhline(0, color = 'k')
     show()
 
+    ##########################################################
+    #Gistogram
+    plt.figure()
+    df['A'].diff().hist()
+
+    plt.figure()
+    df['A'].diff().hist(bins = 50)
+
+    plt.figure()
+    df.diff().hist(color = 'k', alpha = 0.5, bins = 50)
+
+    show()
+
+    ##########################################################
+    #Box-plot
+
+    df = DataFrame(rand(10, 2), columns = ['Col1', 'Col2'])
+    df['X'] = Series(['A', 'A', 'A', 'A', 'A', 'B', 'B', 'B', 'B', 'B'])
+    plt.figure()
+    bp = df.boxplot(by = 'X')
+    show()
 

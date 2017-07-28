@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from brewer2mpl import brewer2mpl
 from numpy.matlib import rand
 from pandas import DataFrame, np
 
@@ -61,5 +62,25 @@ if __name__ == '__main__':
 
     df2.plot(kind = 'barh', stacked = True)     #Отображ горизонтально
 
+    ##########################################################
+
+    years = np.arange(2004, 2009)
+    heights = np.random.random(years.shape) * 7000 + 3000
+
+    box_colors = brewer2mpl.get_map('Set1', 'qualitative', 5).mpl_colors
+
+    plt.bar(years - .4, heights, color=box_colors)
+    plt.grid(axis='y', color='white', linestyle='-', lw=1)
+    plt.yticks([2000, 4000, 6000, 8000])
+
+    fmt = plt.ScalarFormatter(useOffset=False)
+    plt.gca().xaxis.set_major_formatter(fmt)
+    plt.xlim(2003.5, 2008.5)
+    remove_border(left=False)
+
+    for x, y in zip(years, heights):
+        plt.annotate("%i" % y, (x, y + 200), ha='center')
+
     show()
 
+   ###########################################################
