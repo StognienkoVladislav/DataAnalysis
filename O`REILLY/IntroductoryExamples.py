@@ -180,8 +180,8 @@ print(data.ix[0])
 
 #Pivot_table
 
-mean_ratings = data.pivot_table('rating', rows = 'title',
-                                cols = 'gender', aggfunc = 'mean')
+mean_ratings = data.pivot_table('rating', index = 'title',
+                                columns = 'gender', aggfunc = 'mean')
 print(mean_ratings[:5])
 
 
@@ -203,5 +203,111 @@ print(mean_ratings)
 top_female_ratings = mean_ratings.sort_index(by = 'F', ascending = False)
 print(top_female_ratings[:10])
 
+
+
+#Most divisive between male and female
+
+mean_ratings['diff'] = mean_ratings['M'] - mean_ratings['F']
+
+sorted_by_diff = mean_ratings.sort_index(by = 'diff')
+print(sorted_by_diff[:15])
+
+#Reverse order of rows, take first 15 rows
+print(sorted_by_diff[::-1][:15])
+
+
+
+
+#Disagreement among viewers
+
+#Standart deviation of rating grouped by title
+rating_std_by_title = data.groupby('title')['rating'].std()
+
+#Filter down to active_titles
+rating_std_by_title = rating_std_by_title.ix[active_titles]
+
+#Order Series by value in descending order
+#print(rating_std_by_title.order(ascending = False)[:10])
+
+
+
+
+###US Baby Names 1880 - 2010
+
+
+
+
+import pandas as pd
+
+names1880 = pd.read_csv('pydata-book/ch02/names/yob1880.txt', names = ['name',
+                        'sex', 'births'])
+
+print(names1880)
+
+print(names1880.groupby('sex').births.sum())
+
+
+#To download all data
+#2010 is the last available year right now
+years = range(1880, 2011)
+
+pieces = []
+columns = ['name', 'sex', 'births']
+
+for year in years:
+    path = 'pydata-book/ch02/names/yob%d.txt' % year
+    frame = pd.read_csv(path, names = columns)
+
+    frame['year'] = year
+    pieces.append(frame)
+
+#Concatenate everything into a single DataFrame
+names = pd.concat(pieces, ignore_index = True)
+
+print(names)
+
+
+#Aggregating the data
+total_births = names.pivot_table('births', index = 'year',
+                                 columns = 'sex', aggfunc = sum)
+print(total_births.tail())
+
+
+total_births.plot(title = 'Total births by sex and year')
+plt.show()
+
+
+#Particular name
+def add_prop(group):
+    #Integer division floors
+    births = group.births.astype(float)
+
+    group['prop'] = births / births.sum()
+    return group
+
+names = names.groupby(['year', 'sex']).apply(add_prop)
+
+
+
+print(names)
+
+
+print(np.allclose(names.groupby(['year', 'sex']).prop.sum(), 1))
+
+
+#Top 1000 names for each gender
+def get_top1000(group):
+    return group.sort_index(by = 'births', ascending = False)[:1000]
+
+grouped = names.groupby(['year', 'sex'])
+top1000 = grouped.apply(get_top1000)
+
+
+#If we do it by self
+pieces = []
+for year, group in names.groupby(['year', 'sex']):
+    pieces.append(group.sort_index(by = 'births', ascending = False)[:1000])
+
+top1000 = pd.concat(pieces, ignore_index=True)
 
 
