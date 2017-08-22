@@ -323,3 +323,111 @@ girls = top1000[top1000.sex == 'F']
 #Pivot by year and name
 total_births = top1000.pivot_table('births', index = 'year', columns = 'name',
                                    aggfunc = sum)
+
+
+
+
+print(total_births)
+
+subset = total_births[['John', 'Harry', 'Mary', 'Marilyn']]
+subset.plot(subplots = True, figsize = (12, 10), grid = False,
+            title = "Number of births per year")
+plt.show()
+
+
+
+#Measuring the increase in naming diversity
+
+table = top1000.pivot_table('prop', index = 'year', columns = 'sex',
+                            aggfunc = sum)
+
+table.plot(title = 'Sum of table1000.prop by year and sex',
+           yticks = np.linspace(0, 1.2, 13), xticks = range(1880, 2020, 10))
+plt.show()
+
+
+df = boys[boys.year == 2010]
+print(df)
+
+
+prop_cumsum = df.sort_index(by = 'prop', ascending = False).prop.cumsum()
+print(prop_cumsum[:10])
+
+print(prop_cumsum.searchsorted(0.5))
+
+
+df = boys[boys.year == 1900]
+in1900 = df.sort_index(by = 'prop', ascending = False).prop.cumsum()
+print(in1900.searchsorted(0.5) + 1)
+
+
+
+def get_quantile_count(group, q = 0.5):
+    group = group.sort_index(by = 'prop', ascending = False)
+    return group.prop.cumsum().searchsorted(q) + 1
+
+diversity = top1000.groupby(['year', 'sex']).apply(get_quantile_count)
+diversity = diversity.unstack('sex')
+
+print(diversity.head())
+
+diversity.plot(title = "Number of popular names in top 50%")
+plt.show()
+
+
+#The `Last Letter` Revolution
+
+#Extract last letter from name column
+get_last_letter = lambda x : x[-1]
+last_letters = names.name.map(get_last_letter)
+last_letters.name = 'last_letter'
+table = names.pivot_table('births', index = last_letters,
+                          cols = ['sex', 'year'], aggfunc = sum)
+
+subtable = table.reindex(columns = [1910, 1960, 2010], level = 'year')
+print(subtable.head())
+
+
+print(subtable.sum())
+
+letter_prop = subtable / subtable.sum().astype(float)
+
+#Plots for each sex broken down by year
+
+fig, axes = plt.subplot(2, 1, figsize = (10, 8))
+letter_prop['M'].plot(kind = 'bar', rot = 0, ax = axes[0], title = 'Male')
+letter_prop['F'].plot(kind = 'bar', rot = 0, ax = axes[1], title = 'Female',
+                      legend = False)
+plt.show()
+
+
+
+letter_prop = table / table.sum().astype(float)
+dny_ts = letter_prop.ix[['d', 'n', 'y'], 'M'].T
+print(dny_ts.head())
+
+dny_ts.plot()
+plt.show()
+
+
+
+#Boy names that became girl names (and vice versa)
+
+all_names = top1000.name.unique()
+mask = np.array(['lesl' in x.lower() for x in all_names])
+lesley_like = all_names[mask]
+print(lesley_like)
+
+
+filtered = top1000[top1000.name.isin(lesley_like)]
+
+filtered.groupby('name').births.sum()
+
+table = filtered.pivot_table('births', index = 'year',
+                             columns = 'sex', aggfunc = 'sum')
+table = table.div(table.sum(1), axis = 0)
+
+print(table.tail())
+
+table.plot(style = {'M' : 'k-', 'F' : 'k--'})
+
