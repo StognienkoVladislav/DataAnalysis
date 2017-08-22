@@ -311,3 +311,15 @@ for year, group in names.groupby(['year', 'sex']):
 top1000 = pd.concat(pieces, ignore_index=True)
 
 
+
+
+#Analyzing Naming Trends
+
+
+boys = top1000[top1000.sex == 'M']
+girls = top1000[top1000.sex == 'F']
+
+
+#Pivot by year and name
+total_births = top1000.pivot_table('births', index = 'year', columns = 'name',
+                                   aggfunc = sum)
