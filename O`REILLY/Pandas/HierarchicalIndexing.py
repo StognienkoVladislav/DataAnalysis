@@ -54,3 +54,29 @@ print(frame.sortlevel(1))
 
 print(frame.swaplevel(0, 1).sortlevel(0))
 
+
+
+#Summary Statistics by Level
+
+print(frame.sum(level = 'key2'))
+print(frame.sum(level = 'color', axis = 1))
+
+
+
+#Using a DataFrame`s Columns
+
+frame = DataFrame({'a' : range(7), 'b' : range(7, 0, -1),
+                   'c' : ['one', 'one', 'one', 'two', 'two', 'two', 'two'],
+                   'd' : [0, 1, 2, 0, 1, 2, 3]})
+
+print(frame)
+
+
+frame2 = frame.set_index(['c', 'd'])
+print(frame2)
+
+
+print(frame.set_index(['c', 'd'], drop = False))
+
+print(frame2.reset_index())
+
