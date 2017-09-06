@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransformation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DataAnalysis.iml" afterPath="$PROJECT_DIR$/.idea/DataAnalysis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatplotlibTasks/Tricontourf3d.py" afterPath="$PROJECT_DIR$/MatplotlibTasks/Tricontourf3d.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatplotlibTasks/Trisurf3d.py" afterPath="$PROJECT_DIR$/MatplotlibTasks/Trisurf3d.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatplotlibTasks/Trisurf3d_2.py" afterPath="$PROJECT_DIR$/MatplotlibTasks/Trisurf3d_2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatplotlibTasks/Wire3d.py" afterPath="$PROJECT_DIR$/MatplotlibTasks/Wire3d.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatplotlibTasks/Wire3d_animation.py" afterPath="$PROJECT_DIR$/MatplotlibTasks/Wire3d_animation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatplotlibTasks/Wire3d_zero.py" afterPath="$PROJECT_DIR$/MatplotlibTasks/Wire3d_zero.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MatplotlibTasks/Wire3d.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
