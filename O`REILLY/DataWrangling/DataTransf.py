@@ -107,3 +107,75 @@ group_names = ['Youth', 'YoungAdult', 'MiddleAged', 'Senior']
 
 print(pd.cut(ages, bins, labels = group_names))
 
+
+data = np.random.rand(20)
+
+print(pd.cut(data, 4, precision=2))
+
+
+data = np.random.randn(1000)    #Normally distributed
+
+cats = pd.qcut(data, 4) #Cut into quartiles
+
+print(cats)
+
+print(pd.value_counts(cats))
+
+
+print(pd.qcut(data, [0, 0.1, 0.5, 0.9, 1.]))
+
+
+#Detecting and Filtering Outliers
+
+np.random.seed(12345)
+
+data = DataFrame(np.random.randn(1000, 4))
+print(data.describe())
+
+col = data[3]
+
+print(col[np.abs(col) > 3])
+
+print(data[(np.abs(data) > 3).any(1)])
+
+data[np.abs(data) > 3] = np.sign(data) * 3  #sign return -1 or 1
+print(data.describe())
+
+
+
+#Permutation and Random Sampling
+
+df = DataFrame(np.arange(5 * 4).reshape((5, 4)))
+
+sampler = np.random.permutation(5)
+
+print(sampler)
+
+print(df)
+print(df.take(sampler))
+
+print(df.take(np.random.permutation(len(df))[:3]))
+
+
+bag = np.array([5, 7, -1, 6, 4])
+
+sampler = np.random.randint(0, len(bag), size=10)
+
+print(sampler)
+
+draws = bag.take(sampler)
+
+print(draws)
+
+
+df = DataFrame({'key' : ['b', 'b', 'a', 'c', 'a', 'b'],
+                'data1' : range(6)})
+
+print(pd.get_dummies(df['key']))
+
+dummies = pd.get_dummies(df['key'], prefix='key')
+
+df_with_dummy = df[['data1']].join(dummies)
+
+print(df_with_dummy)
+
