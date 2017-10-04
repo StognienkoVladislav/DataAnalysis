@@ -90,3 +90,33 @@ m = regex.match('wesm@bright.net')
 
 print(m.groupdict())
 
+
+#Vectorized string functions in pandas
+
+
+data = {'Dave' : 'dave@google.com', 'Steve' : 'steve@gmail.com',
+        'Rob' : 'rob@gmail.com', 'Wes' : np.nan}
+
+data = Series(data)
+
+print(data)
+print(data.isnull())
+
+
+#To check str.
+
+print(data.str.contains('gmail'))
+
+print(pattern)
+
+print(data.str.findall(pattern, flags = re.IGNORECASE))
+
+
+matches = data.str.match(pattern, flags = re.IGNORECASE)
+print(matches)
+
+print(matches.str.get(1))
+print(matches.str[0])
+
+print(data.str[:5])
+

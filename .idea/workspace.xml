@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MatplotlibTasks/Wire3d.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py" afterPath="$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,14 +25,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataTransformation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransformation.py">
+      <file leaf-file-name="DataTransf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="3186">
+              <caret line="179" column="20" lean-forward="false" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringManipulation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="115" column="14" lean-forward="true" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+              <folding>
+                <element signature="e#2#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReshapingWithHierarchicalIndexing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/ReshapingWithHierarchicalIndexing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ExploratoryAnalysis.py" />
-        <option value="$PROJECT_DIR$/PlotsAndDots.py" />
         <option value="$PROJECT_DIR$/Python3D.py" />
         <option value="$PROJECT_DIR$/GriddataDemo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Scatter3d_demo.py" />
@@ -105,8 +126,10 @@
         <option value="$PROJECT_DIR$/O`REILLY/DataLoading_Storage_FileFormats/DataInTextFormat.py" />
         <option value="$PROJECT_DIR$/O`REILLY/DataLoading_Storage_FileFormats/BinaryDataFormats.py" />
         <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/Combining_Merging_Data_Sets.py" />
-        <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/ReshapingWithHierarchicalIndexing.py" />
         <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransformation.py" />
+        <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/ReshapingWithHierarchicalIndexing.py" />
+        <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py" />
+        <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py" />
       </list>
     </option>
   </component>
@@ -117,10 +140,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1733" />
-    <option name="y" value="92" />
-    <option name="width" value="973" />
-    <option name="height" value="542" />
+    <option name="x" value="1339" />
+    <option name="y" value="-4" />
+    <option name="width" value="1307" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -138,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +190,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +198,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -196,7 +219,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DataTransformation">
+  <component name="RunManager" selected="Python.StringManipulation">
+    <configuration name="DataTransf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`REILLY/DataWrangling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataAnalysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="DataTransformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,38 +292,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Surface3d_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="StringManipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatplotlibTasks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`REILLY/DataWrangling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatplotlibTasks/Surface3d_demo2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Trisurf3d" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatplotlibTasks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataAnalysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatplotlibTasks/Trisurf3d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,19 +524,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Surface3d_demo2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Trisurf3d" />
-      <item index="2" class="java.lang.String" itemvalue="Python.GriddataDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ReshapingWithHierarchicalIndexing" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DataTransformation" />
+      <item index="0" class="java.lang.String" itemvalue="Python.GriddataDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ReshapingWithHierarchicalIndexing" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DataTransformation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DataTransf" />
+      <item index="4" class="java.lang.String" itemvalue="Python.StringManipulation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DataTransformation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ReshapingWithHierarchicalIndexing" />
-        <item index="2" class="java.lang.String" itemvalue="Python.GriddataDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Trisurf3d" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Surface3d_demo2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.StringManipulation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DataTransf" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DataTransformation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ReshapingWithHierarchicalIndexing" />
+        <item index="4" class="java.lang.String" itemvalue="Python.GriddataDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -531,13 +554,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1733" y="92" width="1297" height="780" extended-state="6" />
+    <frame x="1339" y="-4" width="1309" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29783827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32355273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3934681" sideWeight="0.53803045" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3934681" sideWeight="0.46196958" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49719775" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.50594765" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27527216" sideWeight="0.44647107" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.49405235" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -565,14 +588,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Subplot3d_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Scatter3d_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -720,13 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Wire3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Wire3d.py" />
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Bars3d_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -893,24 +902,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3942">
           <caret line="221" column="38" lean-forward="false" selection-start-line="221" selection-start-column="38" selection-end-line="221" selection-end-column="38" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransformation.py" />
+    <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3186">
+          <caret line="179" column="20" lean-forward="false" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/ReshapingWithHierarchicalIndexing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="774">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransformation.py">
+    <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="115" column="14" lean-forward="true" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
           <folding>
-            <element signature="e#1#20#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
