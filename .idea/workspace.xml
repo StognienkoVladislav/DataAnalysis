@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/O`REILLY/PlottingAndVisualization/BriefAPIPrimer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/Intro.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +40,8 @@
       <file leaf-file-name="StringManipulation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="1908">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding>
                 <element signature="e#2#20#0" expanded="true" />
               </folding>
@@ -49,13 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BriefAPIPrimer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BriefAPIPrimer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/O`REILLY/PlottingAndVisualization/BriefAPIPrimer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="345">
+              <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding>
                 <element signature="e#2#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intro.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sentdex/Intro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#2#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GriddataDemo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Scatter3d_demo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Surface3d_demo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Subplot3d_demo.py" />
@@ -142,6 +153,7 @@
         <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py" />
         <option value="$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py" />
         <option value="$PROJECT_DIR$/O`REILLY/PlottingAndVisualization/BriefAPIPrimer.py" />
+        <option value="$PROJECT_DIR$/Sentdex/Intro.py" />
       </list>
     </option>
   </component>
@@ -173,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,13 +202,12 @@
             <path>
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="O`REILLY" type="462c0819:PsiDirectoryNode" />
+              <item name="Sentdex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BriefAPIPrimer">
+  <component name="RunManager" selected="Python.Intro">
     <configuration name="BriefAPIPrimer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,20 +292,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ReshapingWithHierarchicalIndexing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Intro" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`REILLY/DataWrangling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sentdex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/DataWrangling/ReshapingWithHierarchicalIndexing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentdex/Intro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -530,19 +542,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ReshapingWithHierarchicalIndexing" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DataTransformation" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DataTransf" />
-      <item index="3" class="java.lang.String" itemvalue="Python.StringManipulation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DataTransformation" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DataTransf" />
+      <item index="2" class="java.lang.String" itemvalue="Python.StringManipulation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Intro" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.StringManipulation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DataTransf" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DataTransformation" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ReshapingWithHierarchicalIndexing" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Intro" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.StringManipulation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DataTransf" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DataTransformation" />
       </list>
     </recent_temporary>
   </component>
@@ -564,20 +576,27 @@
       <option name="project" value="LOCAL" />
       <updated>1507135831847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Figures and subplots">
+      <created>1507137703981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507137703981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1339" y="-4" width="1309" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32355273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.50911975" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.50277555" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27527216" sideWeight="0.4401269" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.49088025" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.48770818" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49722442" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.49722442" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -599,20 +618,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="String manipulations" />
-    <option name="LAST_COMMIT_MESSAGE" value="String manipulations" />
+    <MESSAGE value="Figures and subplots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Figures and subplots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/2Dcollections3D_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Contour3d_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -937,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state relative-caret-position="1908">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
             <element signature="e#2#20#0" expanded="true" />
           </folding>
@@ -947,10 +960,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/O`REILLY/PlottingAndVisualization/BriefAPIPrimer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#2#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/Intro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#2#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
