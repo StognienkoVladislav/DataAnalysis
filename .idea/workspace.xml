@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/BuildDataSet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/IOBasics.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/ConcatenatingDataframes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/JoiningMerging.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/Pickling.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sentdex/BuildDataSet.py" afterPath="$PROJECT_DIR$/Sentdex/BuildDataSet.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +67,7 @@
       <file leaf-file-name="Intro.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sentdex/Intro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="270">
               <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#2#21#0" expanded="true" />
@@ -74,33 +76,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PandasBasics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sentdex/PandasBasics.py">
+      <file leaf-file-name="ConcatenatingDataframes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sentdex/ConcatenatingDataframes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <element signature="e#2#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOBasics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sentdex/IOBasics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildDataSet.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sentdex/BuildDataSet.py">
+      <file leaf-file-name="JoiningMerging.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sentdex/JoiningMerging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pickling.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sentdex/Pickling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,10 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MatplotlibTasks/Bars3d_demo.py" />
-        <option value="$PROJECT_DIR$/MatplotlibTasks/Contour3d_demo.py" />
-        <option value="$PROJECT_DIR$/MatplotlibTasks/Contour3d_demo2.py" />
-        <option value="$PROJECT_DIR$/MatplotlibTasks/Contour3d_demo3.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Contourf3d_demo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Contourf3d_demo2.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Custom_shaded_3d_surface.py" />
@@ -186,7 +182,11 @@
         <option value="$PROJECT_DIR$/Sentdex/PandasBasics.py" />
         <option value="$PROJECT_DIR$/Sentdex/IO/IOBasics.py" />
         <option value="$PROJECT_DIR$/Sentdex/IOBasics.py" />
+        <option value="$PROJECT_DIR$/Sentdex/quandlapikey.txt" />
         <option value="$PROJECT_DIR$/Sentdex/BuildDataSet.py" />
+        <option value="$PROJECT_DIR$/Sentdex/ConcatenatingDataframes.py" />
+        <option value="$PROJECT_DIR$/Sentdex/JoiningMerging.py" />
+        <option value="$PROJECT_DIR$/Sentdex/Pickling.py" />
       </list>
     </option>
   </component>
@@ -267,21 +267,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IOBasics">
-    <configuration name="BriefAPIPrimer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.JoiningMerging">
+    <configuration name="BuildDataSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`REILLY/PlottingAndVisualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sentdex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/PlottingAndVisualization/BriefAPIPrimer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentdex/BuildDataSet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ConcatenatingDataframes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sentdex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataAnalysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentdex/ConcatenatingDataframes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +322,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Intro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="JoiningMerging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -317,7 +335,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentdex/Intro.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentdex/JoiningMerging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,24 +354,6 @@
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentdex/PandasBasics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="StringManipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`REILLY/DataWrangling" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataAnalysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/DataWrangling/StringManipulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -572,19 +572,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.StringManipulation" />
-      <item index="1" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Intro" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PandasBasics" />
-      <item index="4" class="java.lang.String" itemvalue="Python.IOBasics" />
+      <item index="0" class="java.lang.String" itemvalue="Python.PandasBasics" />
+      <item index="1" class="java.lang.String" itemvalue="Python.IOBasics" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BuildDataSet" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ConcatenatingDataframes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.JoiningMerging" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.IOBasics" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PandasBasics" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Intro" />
-        <item index="3" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.StringManipulation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.JoiningMerging" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ConcatenatingDataframes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BuildDataSet" />
+        <item index="3" class="java.lang.String" itemvalue="Python.IOBasics" />
+        <item index="4" class="java.lang.String" itemvalue="Python.PandasBasics" />
       </list>
     </recent_temporary>
   </component>
@@ -627,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507228380326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="IO basics">
+      <created>1507295123001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507295123002</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -665,41 +672,14 @@
     <MESSAGE value="Figures and subplots" />
     <MESSAGE value="Sentdex DataAnalysis" />
     <MESSAGE value="PandasBasics" />
-    <option name="LAST_COMMIT_MESSAGE" value="PandasBasics" />
+    <MESSAGE value="IO basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO basics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Hist3D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Custom_shaded_3d_surface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Contourf3d_demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Contourf3d_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Contour3d_demo3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -986,31 +966,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sentdex/Intro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#2#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentdex/PandasBasics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="e#2#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sentdex/example.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/quandlapikey.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/BuildDataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#14#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,10 +1000,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sentdex/BuildDataSet.py">
+    <entry file="file://$PROJECT_DIR$/Sentdex/PandasBasics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#2#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/Intro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#2#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/ConcatenatingDataframes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/JoiningMerging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/Pickling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
