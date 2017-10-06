@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/PandasBasics.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/BuildDataSet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentdex/IOBasics.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="DataTransf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3186">
+            <state relative-caret-position="0">
               <caret line="179" column="20" lean-forward="false" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
@@ -64,7 +65,7 @@
       <file leaf-file-name="Intro.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sentdex/Intro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="198">
               <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#2#21#0" expanded="true" />
@@ -73,14 +74,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PandasBasics.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PandasBasics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sentdex/PandasBasics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#2#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOBasics.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sentdex/IOBasics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildDataSet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sentdex/BuildDataSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MatplotlibTasks/Surface3d_demo.py" />
-        <option value="$PROJECT_DIR$/MatplotlibTasks/Subplot3d_demo.py" />
-        <option value="$PROJECT_DIR$/MatplotlibTasks/2Dcollections3D_demo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Bars3d_demo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Contour3d_demo.py" />
         <option value="$PROJECT_DIR$/MatplotlibTasks/Contour3d_demo2.py" />
@@ -166,6 +184,9 @@
         <option value="$PROJECT_DIR$/O`REILLY/PlottingAndVisualization/BriefAPIPrimer.py" />
         <option value="$PROJECT_DIR$/Sentdex/Intro.py" />
         <option value="$PROJECT_DIR$/Sentdex/PandasBasics.py" />
+        <option value="$PROJECT_DIR$/Sentdex/IO/IOBasics.py" />
+        <option value="$PROJECT_DIR$/Sentdex/IOBasics.py" />
+        <option value="$PROJECT_DIR$/Sentdex/BuildDataSet.py" />
       </list>
     </option>
   </component>
@@ -197,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,18 +230,12 @@
             <path>
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="Sentdex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,6 +248,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sentdex" />
+      <recent name="$PROJECT_DIR$/Sentdex/IO" />
       <recent name="$PROJECT_DIR$/O`REILLY/DataWrangling" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/O`REILLY" />
@@ -249,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PandasBasics">
+  <component name="RunManager" selected="Python.IOBasics">
     <configuration name="BriefAPIPrimer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,20 +286,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="DataTransf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="IOBasics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`REILLY/DataWrangling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sentdex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentdex/IOBasics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -554,19 +572,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.DataTransf" />
-      <item index="1" class="java.lang.String" itemvalue="Python.StringManipulation" />
-      <item index="2" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Intro" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PandasBasics" />
+      <item index="0" class="java.lang.String" itemvalue="Python.StringManipulation" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Intro" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PandasBasics" />
+      <item index="4" class="java.lang.String" itemvalue="Python.IOBasics" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PandasBasics" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Intro" />
-        <item index="2" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.StringManipulation" />
-        <item index="4" class="java.lang.String" itemvalue="Python.DataTransf" />
+        <item index="0" class="java.lang.String" itemvalue="Python.IOBasics" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PandasBasics" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Intro" />
+        <item index="3" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.StringManipulation" />
       </list>
     </recent_temporary>
   </component>
@@ -602,13 +620,20 @@
       <option name="project" value="LOCAL" />
       <updated>1507210558583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PandasBasics">
+      <created>1507228380326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507228380326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1339" y="-4" width="1309" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33465505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34020618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.50277555" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27527216" sideWeight="0.4401269" order="2" side_tool="false" content_ui="tabs" />
@@ -639,34 +664,14 @@
     <MESSAGE value="String manipulations" />
     <MESSAGE value="Figures and subplots" />
     <MESSAGE value="Sentdex DataAnalysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sentdex DataAnalysis" />
+    <MESSAGE value="PandasBasics" />
+    <option name="LAST_COMMIT_MESSAGE" value="PandasBasics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Offset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Mixed_subplots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Lines3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Hist3D.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -945,7 +950,7 @@
     <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransformation.py" />
     <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3186">
+        <state relative-caret-position="0">
           <caret line="179" column="20" lean-forward="false" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
@@ -983,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sentdex/Intro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="198">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#2#21#0" expanded="true" />
@@ -993,11 +998,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sentdex/PandasBasics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="177">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#2#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/IOBasics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentdex/BuildDataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
