@@ -43,3 +43,16 @@ plt.plot(data, 'k--', drawstyle = 'steps-post', label = 'steps-post')
 
 plt.legend(loc = 'best')
 plt.show()
+
+#Ticks and ticks labels
+
+ax = fig.add_subplot(1, 1, 1)
+ax.plot(randn(1000).cumsum())
+
+ticks = ax.set_xticks([0, 250, 500, 750, 1000])
+labels = ax.set_ticklabels(["one", "two", "three", "four", "five"],
+                           rotation = 30, fontsize = "small")
+
+ax.set_title("My first matplot plot")
+ax.set_xlabel("Stage")
+plt.show()
