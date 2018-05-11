@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Kurs/main.py" afterPath="$PROJECT_DIR$/Kurs/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +18,7 @@
     <SUITE FILE_PATH="coverage/DataAnalysis$Trisurf3d.coverage" NAME="Trisurf3d Coverage Results" MODIFIED="1526029565299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
     <SUITE FILE_PATH="coverage/DataAnalysis$Resampling.coverage" NAME="Resampling Coverage Results" MODIFIED="1524039564170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentdex" />
     <SUITE FILE_PATH="coverage/DataAnalysis$HSGraduationRate.coverage" NAME="HSGraduationRate Coverage Results" MODIFIED="1526029684787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataAnalysis$Bars3d_demo.coverage" NAME="Bars3d_demo Coverage Results" MODIFIED="1526029310238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$Bars3d_demo.coverage" NAME="Bars3d_demo Coverage Results" MODIFIED="1526046616861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
     <SUITE FILE_PATH="coverage/DataAnalysis$HandlingMissingData.coverage" NAME="HandlingMissingData Coverage Results" MODIFIED="1526029720892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`REILLY/Pandas" />
     <SUITE FILE_PATH="coverage/DataAnalysis$GriddataDemo.coverage" NAME="GriddataDemo Coverage Results" MODIFIED="1526029673424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataAnalysis$PlotsAndDots.coverage" NAME="PlotsAndDots Coverage Results" MODIFIED="1526029689467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -25,11 +26,12 @@
     <SUITE FILE_PATH="coverage/DataAnalysis$Python3D.coverage" NAME="Python3D Coverage Results" MODIFIED="1526029692670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataAnalysis$Essential_Functionality.coverage" NAME="Essential Functionality Coverage Results" MODIFIED="1526029714991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`REILLY/Pandas" />
     <SUITE FILE_PATH="coverage/DataAnalysis$ExploratoryAnalysis.coverage" NAME="ExploratoryAnalysis Coverage Results" MODIFIED="1526029655501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1526039724338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kurs" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1526046737950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kurs" />
     <SUITE FILE_PATH="coverage/DataAnalysis$tpr.coverage" NAME="tpr Coverage Results" MODIFIED="1513074892405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataAnalysis$Wire3d_animation.coverage" NAME="Wire3d_animation Coverage Results" MODIFIED="1524039552923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
     <SUITE FILE_PATH="coverage/DataAnalysis$2Dcollections3D_demo.coverage" NAME="2Dcollections3D_demo Coverage Results" MODIFIED="1526029581192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
     <SUITE FILE_PATH="coverage/DataAnalysis$test.coverage" NAME="test Coverage Results" MODIFIED="1501181985549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$Custom_shaded_3d_surface.coverage" NAME="Custom_shaded_3d_surface Coverage Results" MODIFIED="1526044570195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -61,8 +63,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Kurs/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="324">
+              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
               </folding>
@@ -70,62 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="most_popular_time_for_movie" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kurs/most_popular_time_for_movie">
+      <file leaf-file-name="Bars3d_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Bars3d_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="highest_vote_average" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kurs/highest_vote_average">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tmdb_5000_movies.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kurs/tmdb_5000_movies.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top_budget" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kurs/top_budget">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top_revenue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kurs/top_revenue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntroductoryExamples.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/O`REILLY/IntroductoryExamples.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="120" column="35" lean-forward="false" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="e#99#138#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,6 +201,11 @@
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="Kurs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="MatplotlibTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -286,6 +245,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="Bars3d_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatplotlibTasks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataAnalysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatplotlibTasks/Bars3d_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="BriefAPIPrimer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,20 +283,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Essential Functionality" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Custom_shaded_3d_surface" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/O`REILLY/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatplotlibTasks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/Pandas/Essential Functionality.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatplotlibTasks/Custom_shaded_3d_surface.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,25 +316,6 @@
       <module name="DataAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O`REILLY/Pandas/HandlingMissingData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Python3D" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataAnalysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3D.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -594,19 +553,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Python3D" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Essential Functionality" />
-      <item index="2" class="java.lang.String" itemvalue="Python.HandlingMissingData" />
-      <item index="3" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="0" class="java.lang.String" itemvalue="Python.HandlingMissingData" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Custom_shaded_3d_surface" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Bars3d_demo" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.HandlingMissingData" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Essential Functionality" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Python3D" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Bars3d_demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Custom_shaded_3d_surface" />
+        <item index="3" class="java.lang.String" itemvalue="Python.BriefAPIPrimer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.HandlingMissingData" />
       </list>
     </recent_temporary>
   </component>
@@ -755,13 +714,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Text3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/DataTransformation.py" />
     <entry file="file://$PROJECT_DIR$/O`REILLY/DataWrangling/ReshapingWithHierarchicalIndexing.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -921,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Bars3d_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Offset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -991,25 +936,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExploratoryAnalysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ForFun.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/O`REILLY/IntroductoryExamples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="120" column="35" lean-forward="false" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,14 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/O`REILLY/Pandas/Essential Functionality.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="263" column="25" lean-forward="false" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,6 +997,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/O`REILLY/Pandas/Essential Functionality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="263" column="25" lean-forward="false" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Kurs/most_popular_time_for_movie">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1083,10 +1013,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/O`REILLY/IntroductoryExamples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="120" column="35" lean-forward="false" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Custom_shaded_3d_surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExploratoryAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Bars3d_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#99#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Kurs/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="324">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
           </folding>
