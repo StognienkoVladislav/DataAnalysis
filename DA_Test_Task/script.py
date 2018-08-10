@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 
 data1 = pd.read_csv('data/data1.csv', sep=';')
-data2 = pd.read_csv('data/data2.csv', sep=';')
+data2 = pd.read_csv('data/data.csv', sep=';')
 data3 = pd.read_csv('data/data3.csv', sep=';')
 # print(data1.head())
 # print('##############')
