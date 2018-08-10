@@ -2,6 +2,18 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from prophet import Prophet
 
+"""
+Запрос для БД
+
+SELECT COUNT(*) over() all_counts, COUNT(payments.sums)count_payments, SUM(payments.sums) sum_payments
+FROM users
+JOIN countries ON users.countriesid = countries.id AND countries.country = 'Ukraine'
+JOIN payments ON users.id= payments.usersid
+WHERE users.first_name = 'Ivan'
+GROUP BY payments.usersid;
+
+"""
+
 df = pd.read_csv('data.csv', sep=',')
 print(df.describe())
 
