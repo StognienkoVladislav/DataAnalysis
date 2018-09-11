@@ -39,8 +39,8 @@ def get_info(hrefs, *args):
             if 'title' in columns:
                 info[i]['Title'] = sibling.h1.get_text()
 
-            all_prices = []
             if 'price' in columns:
+                all_prices = []
                 for price in sibling.find("div", class_='product__price-wrapper').find_all('span'):
                     all_prices.append(price.string.strip())
                 if len(all_prices) >1:
@@ -51,25 +51,25 @@ def get_info(hrefs, *args):
                     info[i]['discount_price'] = 'No discount'
 
             if 'color' in columns or 'size' in columns:
-                for gg in sibling.findAll('div', {'itemprop': 'offers'}):
+                for items_prop in sibling.findAll('div', {'itemprop': 'offers'}):
                     if 'color' in columns:
                         info[i]['color'] = []
-                        for asd in gg.find_all('label', {'data-option': 'option1'}):
-                            info[i]['color'].append(asd.get('data-value'))
+                        for color in items_prop.find_all('label', {'data-option': 'option1'}):
+                            info[i]['color'].append(color.get('data-value'))
 
                     if 'size' in columns:
                         info[i]['size'] = []
-                        for asd in gg.find_all('label', {'data-option': 'option2'}):
-                            info[i]['size'].append(asd.get('data-value'))
+                        for size in items_prop.find_all('label', {'data-option': 'option2'}):
+                            info[i]['size'].append(size.get('data-value'))
 
         if 'description' in columns or 'specs' in columns:
-            for gg in bsObj.find_all('div', {'class': 'resp-tabs-container resp-element'}):
+            for desc_and_specs in bsObj.find_all('div', {'class': 'resp-tabs-container resp-element'}):
                 if 'description' in columns:
-                    for asd in gg.findAll('div', {'id': 'toggle-product__description'}):
-                        info[i]['description'] = asd.get_text().strip()
+                    for description in desc_and_specs.findAll('div', {'id': 'toggle-product__description'}):
+                        info[i]['description'] = description.get_text().strip()
                 if 'specs' in columns:
-                    for asd in gg.findAll('div', {'id': 'toggle-product__specs'}):
-                        info[i]['specs'] = asd.get_text().strip()
+                    for spec in desc_and_specs.findAll('div', {'id': 'toggle-product__specs'}):
+                        info[i]['specs'] = spec.get_text().strip()
 
     return info
 
