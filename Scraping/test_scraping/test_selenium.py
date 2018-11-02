@@ -26,10 +26,10 @@ for combo_list in search_lists:
         all_links = browser.find_elements_by_id("search-suggest-query")
         result = []
 
-        for li in all_links:
-            kk = li.find_elements_by_tag_name('span')
-            for ll in kk:
-                result.append(ll.text.encode('utf-8'))
+        for link in all_links:
+            span = link.find_elements_by_tag_name('span')
+            for li in span:
+                result.append(li.text.encode('utf-8'))
 
         to_db = [word[0], '; '.join(str(res) for res in result)]
 
