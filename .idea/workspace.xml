@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="Pickling and plotting">
-      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/datasets/MinimumWageData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/datasets/avocado.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/intro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataAnalysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/datasets/diamonds.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/datasets/pres16results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +64,40 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/.ipynb_checkpoints/avocado_final-checkpoint.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/intro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/pres16results.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/diamonds.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,10 +181,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="608" />
+    <option name="x" value="819" />
     <option name="y" value="-4" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="width" value="928" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,6 +209,12 @@
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="DA_Sentdex_2019" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="DA_Sentdex_2019" type="462c0819:PsiDirectoryNode" />
               <item name="datasets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -193,23 +227,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../roku-hue-3-12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DA_Sentdex_2019/datasets" />
+      <recent name="$PROJECT_DIR$/DA_Sentdex_2019/data_set" />
+      <recent name="D:\GIT\DataAnalysis\DA_Task" />
+      <recent name="$PROJECT_DIR$/Sentdex" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Kurs" />
       <recent name="$PROJECT_DIR$/Sentdex" />
       <recent name="$PROJECT_DIR$/Sentdex/IO" />
       <recent name="$PROJECT_DIR$/O`REILLY/DataWrangling" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DA_Sentdex_2019/datasets" />
-      <recent name="$PROJECT_DIR$/DA_Sentdex_2019/data_set" />
-      <recent name="D:\GIT\DataAnalysis\DA_Task" />
-      <recent name="$PROJECT_DIR$/Sentdex" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -383,12 +417,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Jupyter Notebook.DataAnalysis" />
       <item itemvalue="Python.dynamic_graph" />
       <item itemvalue="Python.live_graphs" />
       <item itemvalue="Python.vehicle_data_app_example" />
       <item itemvalue="Python.visualization_sample" />
       <item itemvalue="Python.intro" />
-      <item itemvalue="Jupyter Notebook.DataAnalysis" />
     </list>
     <recent_temporary>
       <list>
@@ -415,7 +449,11 @@
       <workItem from="1550483926958" duration="423000" />
       <workItem from="1550484478200" duration="605000" />
       <workItem from="1551701096862" duration="4766000" />
-      <workItem from="1551705959821" duration="4050000" />
+      <workItem from="1551705959821" duration="4864000" />
+      <workItem from="1551779322293" duration="1092000" />
+      <workItem from="1551781106041" duration="1287000" />
+      <workItem from="1551789807078" duration="11000" />
+      <workItem from="1552471408863" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="String manipulations">
       <created>1507135831847</created>
@@ -477,14 +515,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21358000" />
+    <option name="totallyTimeSpent" value="26520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.29850745" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.32061914" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4401269" weight="0.31138977" />
@@ -585,10 +623,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Pickling and plotting" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kurs/highest_vote_average" />
-    <entry file="file://$PROJECT_DIR$/Kurs/tmdb_5000_movies.csv" />
-    <entry file="file://$PROJECT_DIR$/Kurs/top_budget" />
-    <entry file="file://$PROJECT_DIR$/Kurs/top_revenue" />
     <entry file="file://$PROJECT_DIR$/Kurs/most_popular_time_for_movie" />
     <entry file="file://$PROJECT_DIR$/O`REILLY/IntroductoryExamples.py" />
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Custom_shaded_3d_surface.py" />
@@ -634,27 +668,7 @@
     <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/avocado.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/sample.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/intro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/avocado_final.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/sample.ipynb" />
     <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/MinimumWageData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -693,6 +707,44 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization_with_Dash/dynamic_graph.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/avocado_final.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/.ipynb_checkpoints/avocado_final-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/intro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/output.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="195">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/pres16results.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/diamonds.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
