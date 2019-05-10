@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="Pickling and plotting">
-      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/datasets/diamonds.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DA_Sentdex_2019/datasets/pres16results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/dot_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/sample_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/DataAnalysis$Trisurf3d.coverage" NAME="Trisurf3d Coverage Results" MODIFIED="1526029565299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
     <SUITE FILE_PATH="coverage/DataAnalysis$BriefAPIPrimer.coverage" NAME="BriefAPIPrimer Coverage Results" MODIFIED="1526029730156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`REILLY/PlottingAndVisualization" />
     <SUITE FILE_PATH="coverage/DataAnalysis$HandlingMissingData.coverage" NAME="HandlingMissingData Coverage Results" MODIFIED="1526029720892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/O`REILLY/Pandas" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$sample_script.coverage" NAME="sample_script Coverage Results" MODIFIED="1557499599559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites" />
     <SUITE FILE_PATH="coverage/DataAnalysis$Bars3d_demo.coverage" NAME="Bars3d_demo Coverage Results" MODIFIED="1526046616861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotlibTasks" />
     <SUITE FILE_PATH="coverage/DataAnalysis$vehicle_data_app_example.coverage" NAME="vehicle_data_app_example Coverage Results" MODIFIED="1550237621659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization_with_Dash" />
     <SUITE FILE_PATH="coverage/DataAnalysis$live_graphs.coverage" NAME="live_graphs Coverage Results" MODIFIED="1550235140056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization_with_Dash" />
@@ -37,6 +38,7 @@
     <SUITE FILE_PATH="coverage/DataAnalysis$script__1_.coverage" NAME="script (1) Coverage Results" MODIFIED="1533933909355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DA_Task" />
     <SUITE FILE_PATH="coverage/DataAnalysis$script.coverage" NAME="script Coverage Results" MODIFIED="1533546606652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DA_Test_Task" />
     <SUITE FILE_PATH="coverage/DataAnalysis$GriddataDemo.coverage" NAME="GriddataDemo Coverage Results" MODIFIED="1526029673424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$dot_for.coverage" NAME="dot_for Coverage Results" MODIFIED="1557500072460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites" />
     <SUITE FILE_PATH="coverage/DataAnalysis$TreeNavigation.coverage" NAME="TreeNavigation Coverage Results" MODIFIED="1536586965983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scraping/Scrapers" />
     <SUITE FILE_PATH="coverage/DataAnalysis$DataAnalysis.coverage" NAME="DataAnalysis Coverage Results" MODIFIED="1551706000866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/DataAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1526046737950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kurs" />
@@ -92,9 +94,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/diamonds.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/sample_script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/dot_for.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -102,8 +129,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -126,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/O`REILLY/IntroductoryExamples.py" />
-        <option value="$PROJECT_DIR$/O`REILLY/IPython/Simple.py" />
         <option value="$PROJECT_DIR$/O`REILLY/NumPy/Ndarray.py" />
         <option value="$PROJECT_DIR$/O`REILLY/Pandas/IntroductionToPandas.py" />
         <option value="$PROJECT_DIR$/O`REILLY/Pandas/Essential Functionality.py" />
@@ -177,6 +202,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DA_Sentdex_2019/intro.py" />
         <option value="$PROJECT_DIR$/DA_Sentdex_2019/intro_sample.ipynb" />
+        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/sample_script.py" />
+        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/dot_for.py" />
       </list>
     </option>
   </component>
@@ -203,19 +230,13 @@
             <path>
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="DA_Sentdex_2019" type="462c0819:PsiDirectoryNode" />
+              <item name="UdemyCourses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="DA_Sentdex_2019" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="DA_Sentdex_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="UdemyCourses" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepLearningPrerequisites" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.DataAnalysis">
+  <component name="RunManager" selected="Python.dot_for">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,7 +318,7 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dot_for" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,12 +326,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization_with_Dash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization_with_Dash/dynamic_graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/dot_for.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,7 +362,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="live_graphs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sample_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,12 +370,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization_with_Dash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization_with_Dash/live_graphs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/sample_script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -418,19 +439,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.DataAnalysis" />
-      <item itemvalue="Python.dynamic_graph" />
-      <item itemvalue="Python.live_graphs" />
       <item itemvalue="Python.vehicle_data_app_example" />
       <item itemvalue="Python.visualization_sample" />
       <item itemvalue="Python.intro" />
+      <item itemvalue="Python.sample_script" />
+      <item itemvalue="Python.dot_for" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dot_for" />
+        <item itemvalue="Python.sample_script" />
         <item itemvalue="Python.intro" />
         <item itemvalue="Python.visualization_sample" />
         <item itemvalue="Python.vehicle_data_app_example" />
-        <item itemvalue="Python.live_graphs" />
-        <item itemvalue="Python.dynamic_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +474,9 @@
       <workItem from="1551779322293" duration="1092000" />
       <workItem from="1551781106041" duration="1287000" />
       <workItem from="1551789807078" duration="11000" />
-      <workItem from="1552471408863" duration="1958000" />
+      <workItem from="1552471408863" duration="2651000" />
+      <workItem from="1552485461852" duration="147000" />
+      <workItem from="1557497565618" duration="2830000" />
     </task>
     <task id="LOCAL-00001" summary="String manipulations">
       <created>1507135831847</created>
@@ -515,22 +538,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26520000" />
+    <option name="totallyTimeSpent" value="30190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.32061914" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4401269" weight="0.31138977" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4401269" visible="true" weight="0.31138977" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49722442" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49722442" visible="true" weight="0.28735632" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49722442" weight="0.28735632" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50277555" side_tool="true" weight="0.32970452" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.48770818" weight="0.3740857" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -623,8 +647,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Pickling and plotting" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kurs/most_popular_time_for_movie" />
-    <entry file="file://$PROJECT_DIR$/O`REILLY/IntroductoryExamples.py" />
     <entry file="file://$PROJECT_DIR$/MatplotlibTasks/Custom_shaded_3d_surface.py" />
     <entry file="file://$PROJECT_DIR$/ExploratoryAnalysis.py" />
     <entry file="file://$PROJECT_DIR$/Kurs/main.py" />
@@ -716,6 +738,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/output.csv" />
     <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/.ipynb_checkpoints/avocado_final-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -730,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/output.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="195">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/pres16results.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -745,7 +761,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/diamonds.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/sample_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/dot_for.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
