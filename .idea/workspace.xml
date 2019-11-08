@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="Pickling and plotting">
-      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/data_frame_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/group_by.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/missing_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/some_fun_with_pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/merging_joining_concatenate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.group_by">
+  <component name="RunManager" selected="Python.merging_joining_concatenate">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,6 +221,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="merging_joining_concatenate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/merging_joining_concatenate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="missing_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,28 +257,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/missing_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="multivariate_normal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/multivariate_normal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,19 +297,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.multivariate_normal" />
       <item itemvalue="Python.some_fun_with_pandas" />
       <item itemvalue="Python.data_frame_sample" />
       <item itemvalue="Python.missing_data" />
       <item itemvalue="Python.group_by" />
+      <item itemvalue="Python.merging_joining_concatenate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.merging_joining_concatenate" />
         <item itemvalue="Python.group_by" />
         <item itemvalue="Python.missing_data" />
         <item itemvalue="Python.data_frame_sample" />
         <item itemvalue="Python.some_fun_with_pandas" />
-        <item itemvalue="Python.multivariate_normal" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +344,8 @@
       <workItem from="1557840597686" duration="4876000" />
       <workItem from="1562602580495" duration="941000" />
       <workItem from="1562659324317" duration="662000" />
-      <workItem from="1573204323874" duration="5802000" />
+      <workItem from="1573204323874" duration="6051000" />
+      <workItem from="1573216733068" duration="1484000" />
     </task>
     <task id="LOCAL-00001" summary="String manipulations">
       <created>1507135831847</created>
@@ -452,6 +450,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataAnalysis$data_frame_sample.coverage" NAME="data_frame_sample Coverage Results" MODIFIED="1573211617439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
     <SUITE FILE_PATH="coverage/DataAnalysis$group_by.coverage" NAME="group_by Coverage Results" MODIFIED="1573213276961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$merging_joining_concatenate.coverage" NAME="merging_joining_concatenate Coverage Results" MODIFIED="1573219531521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
     <SUITE FILE_PATH="coverage/DataAnalysis$some_fun_with_pandas.coverage" NAME="some_fun_with_pandas Coverage Results" MODIFIED="1573210715404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
     <SUITE FILE_PATH="coverage/DataAnalysis$missing_data.coverage" NAME="missing_data Coverage Results" MODIFIED="1573211988801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
   </component>
