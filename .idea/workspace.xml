@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="Pickling and plotting">
-      <change afterPath="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/multivariate_normal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/pdf_and_cdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/data_frame_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/group_by.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/missing_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/some_fun_with_pandas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,34 +80,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/multivariate_normal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -132,114 +104,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Sentdex/JoiningMerging.py" />
-        <option value="$PROJECT_DIR$/Sentdex/quandlapikey.txt" />
-        <option value="$PROJECT_DIR$/Sentdex/Pickling.py" />
-        <option value="$PROJECT_DIR$/O`REILLY/PlottingAndVisualization/BriefAPIPrimer.py" />
-        <option value="$PROJECT_DIR$/Block/test.py" />
-        <option value="$PROJECT_DIR$/Sentdex/part8/CorrelationTables.py" />
-        <option value="$PROJECT_DIR$/Sentdex/part8/quandlapiket.txt" />
-        <option value="$PROJECT_DIR$/Sentdex/CorrelationTable.py" />
-        <option value="$PROJECT_DIR$/Sentdex/resampling.py" />
-        <option value="$PROJECT_DIR$/Sentdex/Resampling.py" />
-        <option value="$PROJECT_DIR$/MatplotlibTasks/Wire3d_animation.py" />
-        <option value="$PROJECT_DIR$/tpr.py" />
-        <option value="$PROJECT_DIR$/kurs.py" />
-        <option value="$PROJECT_DIR$/Kurs/main.py" />
-        <option value="$PROJECT_DIR$/DA_Test_Task/script.py" />
-        <option value="$PROJECT_DIR$/DA_Task/sample.py" />
-        <option value="$PROJECT_DIR$/DA_Task/test.py" />
-        <option value="$PROJECT_DIR$/DA_Task/script.py" />
-        <option value="$PROJECT_DIR$/Scraping/ScrapTask/fras.py" />
-        <option value="$PROJECT_DIR$/Scraping/ScrapTask/script.py" />
-        <option value="$PROJECT_DIR$/Visualization_with_Dash/first_example.py" />
-        <option value="$PROJECT_DIR$/Visualization_with_Dash/react_with_ui.py" />
-        <option value="$PROJECT_DIR$/Visualization_with_Dash/dynamic_graph.py" />
-        <option value="$PROJECT_DIR$/Visualization_with_Dash/live_graphs.py" />
-        <option value="$PROJECT_DIR$/Visualization_with_Dash/vehicle_data_app_example.py" />
-        <option value="$PROJECT_DIR$/Visualization_with_Dash/visualization_sample.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/DA_Sentdex_2019/intro.py" />
-        <option value="$PROJECT_DIR$/DA_Sentdex_2019/intro_sample.ipynb" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/sample_script.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/dot_for.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/simple_calc.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/data_2d.csv" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/manual_data.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/manual_data_sample.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/dataset_from_pandas.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/international-airline-passengers.csv" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/work_with_names.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/table1.csv" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/table2.csv" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/joins_example.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/line_char.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/line_chart.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/data_1d.csv" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/scatterplot.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/histogram.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/plotting_images.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/pdf_and_cdf.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gauisian_dist.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist_2.py" />
-        <option value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/multivariate_normal.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="727" />
-    <option name="y" value="82" />
-    <option name="width" value="926" />
-    <option name="height" value="1076" />
-  </component>
+  <component name="ProjectId" id="1TKMR1oVhO4TCogAGaJLXm1nXCm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="UdemyCourses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="UdemyCourses" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepLearningPrerequisites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="UdemyCourses" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepLearningPrerequisites" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="UdemyCourses" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepLearningPrerequisites" type="462c0819:PsiDirectoryNode" />
-              <item name="scipy" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -249,18 +115,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
+      <recent name="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data" />
+      <recent name="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/numpy" />
+      <recent name="$PROJECT_DIR$/Kurs" />
+      <recent name="$PROJECT_DIR$/Sentdex" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DA_Sentdex_2019/datasets" />
       <recent name="$PROJECT_DIR$/DA_Sentdex_2019/data_set" />
       <recent name="D:\GIT\DataAnalysis\DA_Task" />
       <recent name="$PROJECT_DIR$/Sentdex" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data" />
-      <recent name="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/numpy" />
-      <recent name="$PROJECT_DIR$/Kurs" />
-      <recent name="$PROJECT_DIR$/Sentdex" />
-      <recent name="$PROJECT_DIR$/Sentdex/IO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multivariate_normal">
+  <component name="RunManager" selected="Python.group_by">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,7 +180,7 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="gauisian_dist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="data_frame_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,12 +188,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/data_frame_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gausian_dist_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="group_by" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,12 +210,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/group_by.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="missing_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/missing_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -380,7 +268,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pdf_and_cdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="some_fun_with_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,34 +276,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/pdf_and_cdf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="plotting_images" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/plotting_images.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/some_fun_with_pandas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,20 +300,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jupyter Notebook.DataAnalysis" />
-      <item itemvalue="Python.plotting_images" />
-      <item itemvalue="Python.pdf_and_cdf" />
-      <item itemvalue="Python.gauisian_dist" />
-      <item itemvalue="Python.gausian_dist_2" />
       <item itemvalue="Python.multivariate_normal" />
+      <item itemvalue="Python.some_fun_with_pandas" />
+      <item itemvalue="Python.data_frame_sample" />
+      <item itemvalue="Python.missing_data" />
+      <item itemvalue="Python.group_by" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.group_by" />
+        <item itemvalue="Python.missing_data" />
+        <item itemvalue="Python.data_frame_sample" />
+        <item itemvalue="Python.some_fun_with_pandas" />
         <item itemvalue="Python.multivariate_normal" />
-        <item itemvalue="Python.gausian_dist_2" />
-        <item itemvalue="Python.gauisian_dist" />
-        <item itemvalue="Python.pdf_and_cdf" />
-        <item itemvalue="Python.plotting_images" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +344,10 @@
       <workItem from="1557822627979" duration="1855000" />
       <workItem from="1557826288487" duration="544000" />
       <workItem from="1557838742144" duration="1232000" />
-      <workItem from="1557840597686" duration="3600000" />
+      <workItem from="1557840597686" duration="4876000" />
+      <workItem from="1562602580495" duration="941000" />
+      <workItem from="1562659324317" duration="662000" />
+      <workItem from="1573204323874" duration="5802000" />
     </task>
     <task id="LOCAL-00001" summary="String manipulations">
       <created>1507135831847</created>
@@ -540,61 +408,6 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46015000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17855169" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4401269" visible="true" weight="0.31138977" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49722442" weight="0.3988604" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49722442" weight="0.28735632" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50277555" side_tool="true" weight="0.32970452" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.48770818" weight="0.3740857" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="334" y="138" width="698" height="452" id="SciView" order="3" weight="0.5273632" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32946378" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21140939" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4401269" visible="true" weight="0.3846154" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49722442" weight="0.3988604" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48770818" weight="0.16666667" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49722442" weight="0.32763532" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50277555" side_tool="true" weight="0.32970452" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" auto_hide="true" x="334" y="138" width="698" height="452" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.5279879" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32982844" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -604,20 +417,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -649,285 +449,10 @@
     <MESSAGE value="Pickling and plotting" />
     <option name="LAST_COMMIT_MESSAGE" value="Pickling and plotting" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scraping/ScrapTask/fras.py" />
-    <entry file="file://$PROJECT_DIR$/Scraping/Scrapers/BS4.py" />
-    <entry file="file://$PROJECT_DIR$/Scraping/ScrapTask/bottoms.json" />
-    <entry file="file://$PROJECT_DIR$/Scraping/ScrapTask/exclusives.json" />
-    <entry file="file://$PROJECT_DIR$/Scraping/ScrapTask/test_params.json" />
-    <entry file="file://$PROJECT_DIR$/Scraping/Scrapers/TreeNavigation.py" />
-    <entry file="file://$PROJECT_DIR$/Scraping/Scrapers/Scrapetest.py" />
-    <entry file="file://$PROJECT_DIR$/Scraping/Scrapers/GreenRedScraping.py" />
-    <entry file="file://$PROJECT_DIR$/Scraping/Scrapers/BS4_Regex.py" />
-    <entry file="file://$PROJECT_DIR$/Scraping/ScrapTask/script.py" />
-    <entry file="file://$PROJECT_DIR$/Visualization_with_Dash/real_time_input_output.py" />
-    <entry file="file://$PROJECT_DIR$/Visualization_with_Dash/vehicle_data_app_example.py" />
-    <entry file="file://$PROJECT_DIR$/Visualization_with_Dash/live_graphs.py" />
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/.ipynb_checkpoints/intro_sample-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///run/user/1001/jupyter/nbserver-25100-open.html" />
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/avocado.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/sample.ipynb" />
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/MinimumWageData.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/intro_sample.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization_with_Dash/visualization_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#2#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization_with_Dash/first_example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization_with_Dash/dynamic_graph.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/avocado_final.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/output.csv" />
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/.ipynb_checkpoints/avocado_final-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/intro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/pres16results.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DA_Sentdex_2019/datasets/diamonds.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/numpy/sample_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/numpy/dot_for.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/data_2d.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="72" column="41" lean-forward="true" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/numpy/simple_calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/manual_data_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/dataset_from_pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/international-airline-passengers.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/table1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/table2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/work_with_names.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/pandas/joins_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/line_chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/scatterplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/train.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-9957" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/data/data_1d.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/histogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/pdf_and_cdf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="3" />
-          <folding>
-            <element signature="e#1#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/matplot/plotting_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/gausian_dist_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyCourses/DeepLearningPrerequisites/scipy/multivariate_normal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataAnalysis$data_frame_sample.coverage" NAME="data_frame_sample Coverage Results" MODIFIED="1573211617439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$group_by.coverage" NAME="group_by Coverage Results" MODIFIED="1573213276961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$some_fun_with_pandas.coverage" NAME="some_fun_with_pandas Coverage Results" MODIFIED="1573210715404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$missing_data.coverage" NAME="missing_data Coverage Results" MODIFIED="1573211988801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
   </component>
 </project>
