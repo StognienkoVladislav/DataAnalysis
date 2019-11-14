@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65dbd1d0-3850-4936-8158-2c6582157fd2" name="Default" comment="Pickling and plotting">
-      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/stock_market_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finance/AnalysisAndTrading/TimeSeriesAnalysis/statsmodels_intro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stock_market_analysis">
+  <component name="RunManager" selected="Python.statsmodels_intro">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,28 +176,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-      <method v="2" />
-    </configuration>
-    <configuration name="input_output" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas/input_output.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="line_and_marker_styles" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -266,6 +244,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="statsmodels_intro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/TimeSeriesAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finance/AnalysisAndTrading/TimeSeriesAnalysis/statsmodels_intro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="stock_market_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,19 +298,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.input_output" />
       <item itemvalue="Python.plot_in_plot" />
       <item itemvalue="Python.line_and_marker_styles" />
       <item itemvalue="Python.rolling_and_expanding" />
       <item itemvalue="Python.stock_market_analysis" />
+      <item itemvalue="Python.statsmodels_intro" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.statsmodels_intro" />
         <item itemvalue="Python.stock_market_analysis" />
         <item itemvalue="Python.rolling_and_expanding" />
         <item itemvalue="Python.line_and_marker_styles" />
         <item itemvalue="Python.plot_in_plot" />
-        <item itemvalue="Python.input_output" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +352,7 @@
       <workItem from="1573565337477" duration="1202000" />
       <workItem from="1573634566476" duration="5657000" />
       <workItem from="1573644228390" duration="4594000" />
-      <workItem from="1573721144318" duration="4465000" />
+      <workItem from="1573721144318" duration="7446000" />
     </task>
     <task id="LOCAL-00001" summary="String manipulations">
       <created>1507135831847</created>
@@ -459,6 +459,7 @@
     <SUITE FILE_PATH="coverage/DataAnalysis$line_and_marker_styles.coverage" NAME="line_and_marker_styles Coverage Results" MODIFIED="1573645182867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/Visualization" />
     <SUITE FILE_PATH="coverage/DataAnalysis$data_frame_sample.coverage" NAME="data_frame_sample Coverage Results" MODIFIED="1573211617439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
     <SUITE FILE_PATH="coverage/DataAnalysis$group_by.coverage" NAME="group_by Coverage Results" MODIFIED="1573213276961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
+    <SUITE FILE_PATH="coverage/DataAnalysis$statsmodels_intro.coverage" NAME="statsmodels_intro Coverage Results" MODIFIED="1573745234503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/TimeSeriesAnalysis" />
     <SUITE FILE_PATH="coverage/DataAnalysis$merging_joining_concatenate.coverage" NAME="merging_joining_concatenate Coverage Results" MODIFIED="1573219531521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
     <SUITE FILE_PATH="coverage/DataAnalysis$some_fun_with_pandas.coverage" NAME="some_fun_with_pandas Coverage Results" MODIFIED="1573210715404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading" />
     <SUITE FILE_PATH="coverage/DataAnalysis$rolling_and_expanding.coverage" NAME="rolling_and_expanding Coverage Results" MODIFIED="1573653535140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finance/AnalysisAndTrading/Pandas" />
